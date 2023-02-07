@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "name": "commit-gpt",
+  "author": {
+    "name": "Hsuan Lee",
+    "email": "hsuangm@gmail.com"
+  },
+  "description": "Generate Conventional Commits specification commit messages from input based on GPT",
+  "keywords": [
+    "GPT",
+    "AI",
+    "AIGC",
+    "Conventional Commits"
+  ],
+  "repository": "https://github.com/hsuanxyz/commit-gpt.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^0.1.6",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-wrap-balancer": "^0.1.5",
+    "xterm-addon-canvas": "^0.3.0",
+    "xterm-addon-webgl": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17",
+    "@types/react": "latest",
+    "@vercel/edge": "^0.2.7",
+    "autoprefixer": "^10.4.7",
+    "chalk": "^5.2.0",
+    "eslint": "^8.11.0",
+    "eslint-config-next": "^12.1.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.7.3",
+    "xterm": "^5.1.0",
+    "xterm-addon-fit": "^0.7.0"
+  }
+}
