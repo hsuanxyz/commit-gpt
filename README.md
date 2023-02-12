@@ -6,6 +6,10 @@ A GPT-3-based tool that uses the input prompts to generate several commit messag
     <img alt="web site screenshot" src="./screenshot.webp" width="800">
 </p>
 
+### Online use
+
+[A GPT-3 based Conventional Commits Generator](http://commit.hsuan.xyz/)
+
 ### One-Click Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hsuanxyz/commit-gpt/tree/main&project-name=commit-gpt&repository-name=commit-gpt&env=OPENAI_API_KEY)
