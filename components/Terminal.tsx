@@ -51,8 +51,10 @@ const initTerminal = async (el: HTMLDivElement): Promise<import('xterm').Termina
     fontSize = 11;
   } else if (width >= 425 && width < 600) {
     fontSize = 7;
-  } else if (width <= 375) {
+  } else if (width > 320 && width < 425) {
     fontSize = 6;
+  } else if (width <= 320) {
+    fontSize = 5.8;
   }
 
   const term = new Terminal({
